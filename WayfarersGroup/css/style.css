@@ -1047,10 +1047,6 @@ section {
             align-items: center;
   }
 
-  .hot__offer-box .box_item {
-    margin-bottom: 20px;
-  }
-
   .with_us {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1105,6 +1101,14 @@ section {
 
   .info__box .aside__box-item {
     width: calc((100% - 60px)/2);
+  }
+
+  .slider__agents .slick-prev {
+    left: 15%;
+  }
+
+  .slider__agents .slick-next {
+    right: 15%;
   }
 
   .slider__agents-item {
