@@ -232,7 +232,7 @@ img {
           justify-content: center;
   height: 100vh;
   padding-top: 200px;
-  background-image: url("../img/header/header_bg.png");
+  background-image: url("../img/header/header_bg.jpg");
 }
 
 .header__content {
@@ -279,6 +279,9 @@ img {
   margin: 15px;
   border: 1px solid #4FCC3F;
   border-radius: 50%;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 }
 
 .social_block a:hover {
@@ -684,6 +687,9 @@ img {
   padding: 10px;
   border: 1px solid #4fcc3f;
   color: #0f0f0f;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
 }
 
 .info__box .aside__box a:hover {
@@ -920,6 +926,9 @@ section {
   border-radius: 4px;
   margin: 50px auto;
   text-transform: uppercase;
+  -webkit-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
   line-height: 1.5;
   font-size: 16px;
   color: #fff;
