@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.min.css">
+
+	<title>Мечта Мастера</title>
+</head>
+
+<body>
+	<header class="header" id="header">
+
+    <div class="container">
+
+        <a href="/" class="header__logo">
+            <img src="./img/logo.png" alt="logo">Мечта Мастера
+        </a>
+    
+        <nav class="header__menu">
+            <input id="checkbox" type="checkbox">
+    
+            <label for="checkbox">
+                <div class="burger">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                    <span class="line line4"></span>
+                </div>
+            </label>
+    
+            <div class="header__menu-box">
+                <ul class="header__menu-content">
+    
+                    <li class="header__menu-item">
+                        <a href="#" class="active">Главная</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="#features">Преимущества</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="#price">Цены</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="#feedback">Отзывы</a>
+                    </li>
+    
+                    <li class="header__menu-item">
+                        <a href="#contacts">Контакты</a>
+                    </li>
+    
+                </ul>
+            </div>
+    
+        </nav>
+    
+        <div class="header__actions">
+    
+            <div class="header__actions-phone">
+                <img src="./img/iphone.svg" alt="phone">
+            </div>
+    
+            <ul class="header__actions-tel">
+                <li><a href="tel:+380734684589">+38(073) 468 45 89</a></li>
+                <li><a href="tel:+380958961949">+38(095) 896 19 49</a></li>
+                <li><a href="tel:+380637927049">+38(063) 792 70 49</a></li>
+            </ul>
+    
+            <a class="btn">Получить консультацию</a>
+    
+        </div>
+        
+    </div>
+
+</header>
+
+	<main class="main">
+		<section class="header__body" style="background-image: url('./img/header-bg.jpg')" >
+
+    <div class="container">
+
+        <div class="header__body-content">
+
+            <h1 class="title">Ремонтные работы любой сложности!</h1>
+    
+            <p class="subtitle">Профессиональная работа в кратчайшие сроки</p>
+    
+            <span class="price">стоимость работ от <strong>???</strong> $/m<sup>2</sup></span>
+    
+            <strong class="trigger">оплата по факту!</strong>
+    
+        </div>
+    
+        <div class="header__body-form">
+    
+            <h2 class="title">Для расчёта стоимости, закажите выезд мастера</h2>
+    
+            <form action="#">
+                <label for="name">Ваше имя</label>
+                <input type="text">
+    
+                <label for="name">Номер телефона</label>
+                <input type="text">
+            </form>
+    
+            <a href="#" class="btn">оставте заявку</a>
+    
+            <small>Приедем в день рбращения</small>
+        </div>
+        
+    </div>
+    
+</section>
+		<section class="features" id="features">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Преимущества работы с нами</h2>
+        </div>
+
+        <div class="features__box">
+            <div class="features__box-item">
+                <img src="./img/price.svg" alt="icon">
+                <h3 class="title">Платите по факту</h3>
+                <p class="sutitle">Вы оплачиваете выполненные работы только после их выполнения. Никаких скрытых доплат и промежуточных платежей.</p>
+            </div>
+    
+            <div class="features__box-item">
+                <img src="./img/contract.svg" alt="icon">
+                <h3 class="title">Заключаем договор</h3>
+                <p class="sutitle">Перед началом работ заключаем договор на юредическае лицо. Вы можете быть уверены, что все обязательства будут выполнены.</p>
+            </div>
+    
+            <div class="features__box-item">
+                <img src="./img/clock.svg" alt="icon">
+                <h3 class="title">Точно в срок</h3>
+                <p class="sutitle">Работаем строго по установленным срокам, которые прописаны в договоре. Если не успеваем, Вы платите меньше...</p>
+            </div>
+    
+            <div class="features__box-item">
+                <img src="./img/save-money.svg" alt="icon">
+                <h3 class="title">Экономте с нами</h3>
+                <p class="sutitle">Мы являемся структурным подразделением компании поставщика строительных материалов и даём Вам самые выгодные цены.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+		<section class="price" id="price" style="background-image: url('./img/teamwork.jpg')">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Цены</h2>
+            <p>Выберите вариант, который подходит Вам:</p>
+        </div>
+
+        <div class="price__box">
+
+            <div class="price__box-item">
+                <h3 class="title">Работа с Вашим материалом</h3>
+                <img data-lazy="" src="./img/build-you.png" alt="icon">
+                <div class="description">
+                    <span>от ??? $/m<sup>2</sup></span>
+                    <ul>
+                        <li>Проведение работ.</li>
+                        <li>Уборка.</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">Заказать</a>
+            </div>
+
+            <div class="price__box-item">
+                <h3 class="title">Работа с Нашим материалом</h3>
+                <img src="./img/build-we.png" alt="icon">
+                <div class="description">
+                    <span>от ??? $/m<sup>2</sup></span>
+                    <ul>
+                        <li>Завоз материала и его объём.</li>
+                        <li>Проведение работ.</li>
+                        <li>Уборка.</li>
+                        <li>Гарантия 2 года.</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">Заказать</a>
+            </div>
+
+            <div class="price__box-item">
+                <h3 class="title">Проект под ключ</h3>
+                <img src="./img/engineer.png" alt="icon">
+                <div class="description">
+                    <span>от ??? $/m<sup>2</sup></span>
+                    <ul>
+                        <li>Подготовка проекта</li>
+                        <li>Расчёт стоимости</li>
+                        <li>Завоз материала и его объём.</li>
+                        <li>Проведение работ.</li>
+                        <li>Уборка.</li>
+                        <li>Гарантия 2 года.</li>
+                    </ul>
+                </div>
+                <a href="#" class="btn">Заказать</a>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+		<section class="feedback" id="feedback">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Отзывы</h2>
+        </div>
+        
+        <div class="feedback__box">
+
+            <div class="feedback__box-item">
+                <div class="feedback__box-left">
+                    <img src="./img/architect.jpg" alt="icon">
+
+                    <ul class="decription">
+                        <li>Объект: <strong>г.Киев, проспект Героев Сталинграда 8</strong></li>
+                        <li>Площадь: <strong>357м2</strong></li>
+                        <li>Выполнен: <strong>за 10 дней</strong></li>
+                        <li>Стоимость: <strong>??? за квадратный метр</strong></li>
+                        <li>Особенности: <strong>перепады, неровности стен до 6 см</strong></li>
+                    </ul>
+                </div>
+
+                <div class="feedback__box-right">
+                    <img src="./img/avatar.png" alt="icon">
+
+                    <div class="name">Заказчик: <strong>Нахимов Артём</strong></div>
+
+                    <div class="text"><p>Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Подпоясал себя возвращайся, коварных грамматики запятых рукопись власти диких большого lorem если ее сбить ему инициал там путь свой составитель проектах? Власти имеет своего даль коварный заманивший переулка языком, не вскоре раз реторический путь курсивных это напоивший своих оксмокс единственное.</p></div>
+                </div>
+            </div>
+
+            <div class="feedback__box-item">
+                <div class="feedback__box-left">
+                    <img src="./img/condominium.jpg" alt="icon">
+
+                    <ul class="decription">
+                        <li>Объект: <strong>г.Киев, проспект Героев Сталинграда 8</strong></li>
+                        <li>Площадь: <strong>357м2</strong></li>
+                        <li>Выполнен: <strong>за 10 дней</strong></li>
+                        <li>Стоимость: <strong>??? за квадратный метр</strong></li>
+                        <li>Особенности: <strong>перепады, неровности стен до 6 см</strong></li>
+                    </ul>
+                </div>
+
+                <div class="feedback__box-right">
+                    <img src="./img/avatar.png" alt="icon">
+
+                    <div class="name">Заказчик: <strong>Нахимов Артём</strong></div>
+
+                    <div class="text"><p>Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Подпоясал себя возвращайся, коварных грамматики запятых рукопись власти диких большого lorem если ее сбить ему инициал там путь свой составитель проектах? Власти имеет своего даль коварный заманивший переулка языком, не вскоре раз реторический путь курсивных это напоивший своих оксмокс единственное.</p></div>
+                </div>
+            </div>
+
+            <div class="feedback__box-item">
+                <div class="feedback__box-left">
+                    <img src="./img/retro.jpg" alt="icon">
+
+                    <ul class="decription">
+                        <li>Объект: <strong>г.Киев, проспект Героев Сталинграда 8</strong></li>
+                        <li>Площадь: <strong>357м2</strong></li>
+                        <li>Выполнен: <strong>за 10 дней</strong></li>
+                        <li>Стоимость: <strong>??? за квадратный метр</strong></li>
+                        <li>Особенности: <strong>перепады, неровности стен до 6 см</strong></li>
+                    </ul>
+                </div>
+
+                <div class="feedback__box-right">
+                    <img src="./img/avatar.png" alt="icon">
+
+                    <div class="name">Заказчик: <strong>Нахимов Артём</strong></div>
+
+                    <div class="text"><p>Далеко-далеко за, словесными горами в стране гласных и согласных живут рыбные тексты. Подпоясал себя возвращайся, коварных грамматики запятых рукопись власти диких большого lorem если ее сбить ему инициал там путь свой составитель проектах? Власти имеет своего даль коварный заманивший переулка языком, не вскоре раз реторический путь курсивных это напоивший своих оксмокс единственное.</p></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+		<section class="contacts" id="contacts" style="background-image: url('./img/under-construction.jpg')">
+    <div class="container">
+
+        <div class="section-title">
+            <h2>Контакты</h2>
+        </div>
+
+        <div class="contacts__box">
+
+            <div class="contacts__text">
+                <span>Адрес офиса: <br> Киев, ул. Златоустовская 25</span>
+        
+                <ul>
+                    <li><a href="tel:+380734684589">+38(073) 468 45 89</a></li>
+                    <li><a href="tel:+380958961949">+38(095) 896 19 49</a></li>
+                    <li><a href="tel:+380637927049">+38(063) 792 70 49</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="contacts__map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.500950581156!2d30.484991515580358!3d50.45039559525015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce8993653dfd%3A0xb53de90473befd36!2z0LLRg9C70LjRhtGPINCX0L7Qu9C-0YLQvtGD0YHRgtGW0LLRgdGM0LrQsCwgMjUsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1569240198821!5m2!1sru!2sua"
+                    width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="">
+                </iframe>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+	</main>
+
+	<footer class="footer" id="footer">
+    <div class="container">
+
+        <a href="/" class="header__logo">
+            <img src="./img/logo.png" alt="logo">Мечта Мастера
+        </a>
+
+        <div class="footer__social">
+            <a href="#"><img src="./img/twitter.svg" alt="icon"></a>
+            <a href="#"><img src="./img/facebook.svg" alt="icon"></a>
+            <a href="#"><img src="./img/telegram.svg" alt="icon"></a>
+            <a href="#"><img src="./img/instagram.svg" alt="icon"></a>
+        </div>
+
+    </div>
+</footer>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
