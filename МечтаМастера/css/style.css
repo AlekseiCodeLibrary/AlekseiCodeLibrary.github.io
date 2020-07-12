@@ -490,12 +490,70 @@ img {
 }
 
 .price {
-  background: center no-repeat;
+  position: relative;
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .price .section-title {
   color: #000;
+}
+
+.price__popap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.price__popap-form {
+  position: relative;
+  top: 25%;
+  max-width: 350px;
+  margin: auto;
+  padding: 20px 30px;
+  text-align: center;
+  background-color: #ffffffab;
+}
+
+.price__popap-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price__popap-form label {
+  margin: 0 auto;
+  padding: 5px 10px;
+  background: #fff;
+  border-radius: 4px;
+  -webkit-transform: translateY(115%) translateX(0%);
+      -ms-transform: translateY(115%) translateX(0%);
+          transform: translateY(115%) translateX(0%);
+}
+
+.price__popap-form input {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  border: none;
+}
+
+.price__popap._active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .price__box {
@@ -550,8 +608,8 @@ img {
   min-height: 120px;
 }
 
-.price__box-item .btn {
-  border: 2px solid #000;
+.price__box-btn {
+  border: 2px solid #000 !important;
 }
 
 .feedback {
@@ -611,7 +669,7 @@ img {
   left: 0;
 }
 
-.feedback__box .slick-nex {
+.feedback__box .slick-next {
   right: 0;
 }
 
@@ -754,7 +812,8 @@ section {
   font-size: 21px;
 }
 
-.btn {
+.btn,
+.price__box-btn {
   display: block;
   text-align: center;
   padding: 15px;
@@ -770,7 +829,8 @@ section {
   cursor: pointer;
 }
 
-.btn:hover {
+.btn:hover,
+.price__box-btn:hover {
   background-color: #fff01f;
 }
 
