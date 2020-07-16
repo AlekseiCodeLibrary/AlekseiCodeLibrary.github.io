@@ -889,11 +889,12 @@ section {
   }
 
   .header {
+    position: relative;
     padding-top: 40px;
   }
 
   .header__menu {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
