@@ -1022,6 +1022,8 @@ section {
     min-height: 0;
   }
 
+  .popup__form { top: 15%; }
+
   .feedback__box {
     padding: 30px 50px;
   }
